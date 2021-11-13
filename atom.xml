@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Torres-圣君</title>
+  
+  <subtitle>Torres-圣君の博客</subtitle>
+  <link href="https://cjlblog.vip/atom.xml" rel="self"/>
+  
+  <link href="https://cjlblog.vip/"/>
+  <updated>2021-11-13T15:41:47.143Z</updated>
+  <id>https://cjlblog.vip/</id>
+  
+  <author>
+    <name>Torres-圣君</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>雷雨Q机器人帮助手册</title>
+    <link href="https://cjlblog.vip/posts/2a750f3b.html"/>
+    <id>https://cjlblog.vip/posts/2a750f3b.html</id>
+    <published>2021-11-06T10:00:47.024Z</published>
+    <updated>2021-11-13T15:41:47.143Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;雷雨-V0-12-稳定版-：&quot;&gt;&lt;a href=&quot;#雷雨-V0-12-稳定版-：&quot; class=&quot;headerlink&quot; title=&quot;雷雨-V0.12(稳定版)：&quot;&gt;&lt;/a&gt;雷雨-&lt;code&gt;V0.12(稳定版)&lt;/code&gt;：&lt;/h2&gt;&lt;h4</summary>
+        
+      
+    
+    
+    
+    <category term="实用篇" scheme="https://cjlblog.vip/categories/%E5%AE%9E%E7%94%A8%E7%AF%87/"/>
+    
+    
+    <category term="QQ机器人" scheme="https://cjlblog.vip/tags/QQ%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python入门教程</title>
+    <link href="https://cjlblog.vip/posts/b8a3dfda.html"/>
+    <id>https://cjlblog.vip/posts/b8a3dfda.html</id>
+    <published>2021-09-07T10:09:00.000Z</published>
+    <updated>2021-11-11T15:10:11.570Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;第一章：基础语法&quot;&gt;&lt;a href=&quot;#第一章：基础语法&quot; class=&quot;headerlink&quot; title=&quot;第一章：基础语法&quot;&gt;&lt;/a&gt;第一章：基础语法&lt;/h3&gt;&lt;h4 id=&quot;输出相关：&quot;&gt;&lt;a href=&quot;#输出相关：&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Python篇" scheme="https://cjlblog.vip/categories/Python%E7%AF%87/"/>
+    
+    
+    <category term="Python" scheme="https://cjlblog.vip/tags/Python/"/>
+    
+    <category term="Python基础" scheme="https://cjlblog.vip/tags/Python%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java重写和重载</title>
+    <link href="https://cjlblog.vip/posts/838c8ec8.html"/>
+    <id>https://cjlblog.vip/posts/838c8ec8.html</id>
+    <published>2021-04-23T06:25:00.000Z</published>
+    <updated>2021-09-29T04:11:26.534Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;方法重写与重载&quot;&gt;&lt;a href=&quot;#方法重写与重载&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java篇" scheme="https://cjlblog.vip/categories/Java%E7%AF%87/"/>
+    
+    
+    <category term="Java" scheme="https://cjlblog.vip/tags/Java/"/>
+    
+    <category term="变量作用域" scheme="https://cjlblog.vip/tags/%E5%8F%98%E9%87%8F%E4%BD%9C%E7%94%A8%E5%9F%9F/"/>
+    
+    <category term="重写与重载" scheme="https://cjlblog.vip/tags/%E9%87%8D%E5%86%99%E4%B8%8E%E9%87%8D%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java继承封装多态</title>
+    <link href="https://cjlblog.vip/posts/b1b44365.html"/>
+    <id>https://cjlblog.vip/posts/b1b44365.html</id>
+    <published>2021-04-23T02:25:00.000Z</published>
+    <updated>2021-09-29T04:11:17.213Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;0x001：继承&quot;&gt;&lt;a href=&quot;#0x001：继承&quot; class=&quot;headerlink&quot; title=&quot;0x001：继承&quot;&gt;&lt;/a&gt;0x001：继承&lt;/h2&gt;&lt;h4 id=&quot;类的继承格式&quot;&gt;&lt;a href=&quot;#类的继承格式&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java篇" scheme="https://cjlblog.vip/categories/Java%E7%AF%87/"/>
+    
+    
+    <category term="Java" scheme="https://cjlblog.vip/tags/Java/"/>
+    
+    <category term="继承" scheme="https://cjlblog.vip/tags/%E7%BB%A7%E6%89%BF/"/>
+    
+    <category term="封装" scheme="https://cjlblog.vip/tags/%E5%B0%81%E8%A3%85/"/>
+    
+    <category term="多态" scheme="https://cjlblog.vip/tags/%E5%A4%9A%E6%80%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java常用对话框</title>
+    <link href="https://cjlblog.vip/posts/6f783614.html"/>
+    <id>https://cjlblog.vip/posts/6f783614.html</id>
+    <published>2021-03-27T15:41:03.000Z</published>
+    <updated>2021-09-29T04:11:06.468Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;0x001显示对话框&quot;&gt;&lt;a href=&quot;#0x001显示对话框&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java篇" scheme="https://cjlblog.vip/categories/Java%E7%AF%87/"/>
+    
+    
+    <category term="Java" scheme="https://cjlblog.vip/tags/Java/"/>
+    
+    <category term="Java对话框" scheme="https://cjlblog.vip/tags/Java%E5%AF%B9%E8%AF%9D%E6%A1%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最全css样式表</title>
+    <link href="https://cjlblog.vip/posts/f8a3898b.html"/>
+    <id>https://cjlblog.vip/posts/f8a3898b.html</id>
+    <published>2021-03-14T02:52:00.000Z</published>
+    <updated>2021-09-29T04:10:34.993Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;基本格式：&quot;&gt;&lt;a href=&quot;#基本格式：&quot; class=&quot;headerlink&quot; title=&quot;基本格式：&quot;&gt;&lt;/a&gt;基本格式：&lt;/h4&gt;&lt;pre class=&quot;line-numbers language-html&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    <category term="前端篇" scheme="https://cjlblog.vip/categories/%E5%89%8D%E7%AB%AF%E7%AF%87/"/>
+    
+    
+    <category term="web前端" scheme="https://cjlblog.vip/tags/web%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="css" scheme="https://cjlblog.vip/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最全HTML标签属性</title>
+    <link href="https://cjlblog.vip/posts/28ba7b8d.html"/>
+    <id>https://cjlblog.vip/posts/28ba7b8d.html</id>
+    <published>2021-03-14T02:37:00.000Z</published>
+    <updated>2021-09-29T04:10:20.575Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;HTML的固定格式&quot;&gt;&lt;a href=&quot;#HTML的固定格式&quot; class=&quot;headerlink&quot; title=&quot;HTML的固定格式&quot;&gt;&lt;/a&gt;HTML的固定格式&lt;/h4&gt;&lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    <category term="前端篇" scheme="https://cjlblog.vip/categories/%E5%89%8D%E7%AB%AF%E7%AF%87/"/>
+    
+    
+    <category term="html" scheme="https://cjlblog.vip/tags/html/"/>
+    
+    <category term="web前端" scheme="https://cjlblog.vip/tags/web%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java集成开发环境</title>
+    <link href="https://cjlblog.vip/posts/5505204e.html"/>
+    <id>https://cjlblog.vip/posts/5505204e.html</id>
+    <published>2021-03-08T05:14:00.000Z</published>
+    <updated>2021-09-29T04:11:33.239Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;0x001：下载JDK和Eclipse&quot;&gt;&lt;a href=&quot;#0x001：下载JDK和Eclipse&quot; class=&quot;headerlink&quot; title=&quot;0x001：下载JDK和Eclipse&quot;&gt;&lt;/a&gt;0x001：下载JDK和Eclipse&lt;/h2&gt;&lt;h4</summary>
+        
+      
+    
+    
+    
+    <category term="Java篇" scheme="https://cjlblog.vip/categories/Java%E7%AF%87/"/>
+    
+    
+    <category term="JDK" scheme="https://cjlblog.vip/tags/JDK/"/>
+    
+    <category term="Eclipse" scheme="https://cjlblog.vip/tags/Eclipse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>免费获取网上的付费资料</title>
+    <link href="https://cjlblog.vip/posts/12cf3b04.html"/>
+    <id>https://cjlblog.vip/posts/12cf3b04.html</id>
+    <published>2021-02-19T05:49:00.000Z</published>
+    <updated>2021-09-29T04:10:47.502Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;有时当我们需要写一些论文，或完成某项作业时可能会去网上查阅一些相关资料，而像百度文库类似的网站下载资料又需要VIP，所以本文讲解如何免费下载付费文章&lt;br&gt;掌握后轻松复制文章内容，解决99%网站无法复制的问题&lt;/strong&gt;&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="实用篇" scheme="https://cjlblog.vip/categories/%E5%AE%9E%E7%94%A8%E7%AF%87/"/>
+    
+    
+    <category term="实用技能" scheme="https://cjlblog.vip/tags/%E5%AE%9E%E7%94%A8%E6%8A%80%E8%83%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python爬取新浪新闻</title>
+    <link href="https://cjlblog.vip/posts/87f2959f.html"/>
+    <id>https://cjlblog.vip/posts/87f2959f.html</id>
+    <published>2021-02-07T04:52:00.000Z</published>
+    <updated>2021-09-29T04:12:05.388Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;0x001：效果展示&quot;&gt;&lt;a href=&quot;#0x001：效果展示&quot; class=&quot;headerlink&quot; title=&quot;0x001：效果展示&quot;&gt;&lt;/a&gt;0x001：效果展示&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Python篇" scheme="https://cjlblog.vip/categories/Python%E7%AF%87/"/>
+    
+    
+    <category term="Python" scheme="https://cjlblog.vip/tags/Python/"/>
+    
+    <category term="网络爬虫" scheme="https://cjlblog.vip/tags/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Anaconda安装教程</title>
+    <link href="https://cjlblog.vip/posts/692adf87.html"/>
+    <id>https://cjlblog.vip/posts/692adf87.html</id>
+    <published>2021-01-21T05:35:00.000Z</published>
+    <updated>2021-09-29T04:08:49.404Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;0x001：下载Anaconda&quot;&gt;&lt;a href=&quot;#0x001：下载Anaconda&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Python篇" scheme="https://cjlblog.vip/categories/Python%E7%AF%87/"/>
+    
+    
+    <category term="Anaconda" scheme="https://cjlblog.vip/tags/Anaconda/"/>
+    
+    <category term="Python" scheme="https://cjlblog.vip/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C4droid安装教程</title>
+    <link href="https://cjlblog.vip/posts/51c2a5ad.html"/>
+    <id>https://cjlblog.vip/posts/51c2a5ad.html</id>
+    <published>2021-01-20T04:00:00.000Z</published>
+    <updated>2021-09-29T04:09:26.864Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;0x001：C4droid简介&quot;&gt;&lt;a href=&quot;#0x001：C4droid简介&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="C语言篇" scheme="https://cjlblog.vip/categories/C%E8%AF%AD%E8%A8%80%E7%AF%87/"/>
+    
+    
+    <category term="C/C++编译器" scheme="https://cjlblog.vip/tags/C-C-%E7%BC%96%E8%AF%91%E5%99%A8/"/>
+    
+    <category term="IDE" scheme="https://cjlblog.vip/tags/IDE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL常用的命令</title>
+    <link href="https://cjlblog.vip/posts/92cd9797.html"/>
+    <id>https://cjlblog.vip/posts/92cd9797.html</id>
+    <published>2021-01-19T06:00:00.000Z</published>
+    <updated>2021-11-11T15:41:57.914Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;0x001-连接相关&quot;&gt;&lt;a href=&quot;#0x001-连接相关&quot; class=&quot;headerlink&quot; title=&quot;0x001: 连接相关&quot;&gt;&lt;/a&gt;0x001:</summary>
+        
+      
+    
+    
+    
+    <category term="数据库篇" scheme="https://cjlblog.vip/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AF%87/"/>
+    
+    
+    <category term="MySQL" scheme="https://cjlblog.vip/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL的安装和卸载</title>
+    <link href="https://cjlblog.vip/posts/b227e9c7.html"/>
+    <id>https://cjlblog.vip/posts/b227e9c7.html</id>
+    <published>2021-01-18T02:25:00.000Z</published>
+    <updated>2021-09-29T04:11:48.340Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;0x001：MySQL产品的安装&quot;&gt;&lt;a href=&quot;#0x001：MySQL产品的安装&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据库篇" scheme="https://cjlblog.vip/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AF%87/"/>
+    
+    
+    <category term="MySQL" scheme="https://cjlblog.vip/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo搭建个人博客</title>
+    <link href="https://cjlblog.vip/posts/ec7d7221.html"/>
+    <id>https://cjlblog.vip/posts/ec7d7221.html</id>
+    <published>2020-11-21T03:41:03.000Z</published>
+    <updated>2021-09-29T04:09:49.766Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;0x001-效果演示&quot;&gt;&lt;a href=&quot;#0x001-效果演示&quot; class=&quot;headerlink&quot; title=&quot;0x001 效果演示&quot;&gt;&lt;/a&gt;0x001 效果演示&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="博客篇" scheme="https://cjlblog.vip/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    
+    
+    <category term="Hexo" scheme="https://cjlblog.vip/tags/Hexo/"/>
+    
+    <category term="Github" scheme="https://cjlblog.vip/tags/Github/"/>
+    
+    <category term="博客" scheme="https://cjlblog.vip/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown基础格式</title>
+    <link href="https://cjlblog.vip/posts/74db63a5.html"/>
+    <id>https://cjlblog.vip/posts/74db63a5.html</id>
+    <published>2020-11-21T01:25:00.000Z</published>
+    <updated>2021-09-29T04:11:42.312Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;00x1：标题&quot;&gt;&lt;a href=&quot;#00x1：标题&quot; class=&quot;headerlink&quot; title=&quot;00x1：标题&quot;&gt;&lt;/a&gt;00x1：标题&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;格式代码如下：
+# 一级标题
+## 二级标题
+### 三级标题
+####</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://cjlblog.vip/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Markdown" scheme="https://cjlblog.vip/tags/Markdown/"/>
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="xin.png" sizes="32x32"/>
+<title>寻觅爱情丨Torres-圣君</title>
+
+<style type="text/css">
+@font-face {
+	font-family: digit;
+	src: url('digital-7_mono.ttf') format("truetype");
+}
+</style>
+
+<link href="css/default.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/garden.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+
+</head>
+
+<body>
+
+<div id="mainDiv">
+	<div id="content">
+		<div id="code">
+			<!-- <span class="comments">绿色字体</span>
+				 <span class="keyword">红色字体</span> -->
+
+			<span class="comments">/**</span><br />
+			<span class="space"/><span class="comments">*相遇：20xx-xx-xx,</span><br />
+			<span class="space"/><span class="comments">*相识：20xx-xx-xx,</span><br />
+			<span class="space"/><span class="comments">*相爱：20xx-xx-xx.</span><br />
+			<span class="space"/><span class="comments">*/</span><br />
+			boyName = <span class="keyword">Mr</span> Chen<br /><br>
+			<!-- girlName = <span class="keyword">Mrs</span> xxx<br /> -->
+			<span class="comments">// 从来不说我爱你,</span><br />
+			<span class="comments">// 看着你的时候却在心里重复了千万遍,</span><br />
+			<span class="comments">// 怕你听见,</span><br />
+			<span class="comments">// 又怕你听不见.</span><br /><br>
+
+			sentence1 = <span class="keyword">
+				"</span><span class="comments">我很想,</span><span class="keyword">"</span>
+			<br /><br>
+
+			sentence2 = <span class="keyword">
+				"</span><span class="comments">成为你最重要的那个人,</span><span class="keyword">"</span>
+			<br /><br>
+
+			sentence3 = <span class="keyword">
+				"</span><span class="comments">想和你有个未来,</span><span class="keyword">"</span>
+			<br /><br>
+
+			sentence4 = <span class="keyword">
+				"</span><span class="comments">想打开手机就是你的消息,</span><span class="keyword">"</span>
+			<br /><br>
+
+			sentence5 = <span class="keyword">
+				"</span><span class="comments">很想很想牵着你的手,</span><span class="keyword">"</span>
+			<br /><br>
+
+			sentence6 = <span class="keyword">
+				"</span><span class="comments">走到最后.</span><span class="keyword">"</span>
+			<br /><br>
+
+			<br>
+			<br>
+			我想对你说:<br />
+			&nbsp;&nbsp;宝，我永远爱你.<br />
+
+		</div>
+		<div id="loveHeart">
+			<canvas id="garden"></canvas>
+			<div id="words">
+				<!-- <div id="messages">
+					亲爱的，这是我们相爱在一起的时光。
+					<div id="elapseClock"></div> -->
+				<div id="messages">
+					宝，我们相爱的时钟何时才能开始走动。
+					<div id="elapseClock"></div>
+				</div>
+				<div id="loveu">
+					爱你直到永永远远。<br/>
+					<div class="signature">- 陈先生</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="copyright">
+		<a href="https://www.cjlblog.vip" target="_blank">Mr Chen</a><br/>
+		<!-- <a href="#">....</a><br/> -->
+		
+	</div>
+</div>
+
+<audio id="myAudio" autoplay="autoplay" loop = "loop">
+	<source src="bgmusic.mp3" type="audio/mp3" />
+</audio>
+
+<script type="text/javascript">
+document.getElementById("myAudio").volume = 0.2;
+var offsetX = $("#loveHeart").width() / 2;
+var offsetY = $("#loveHeart").height() / 2 - 55;
+var together = new Date();
+together.setFullYear(2020, 12, 23); //月份是从0开始，所以要-1
+together.setHours(0);  				//时
+together.setMinutes(0);				//分
+together.setSeconds(0);				//秒
+together.setMilliseconds(0);		//毫秒
+
+if (!document.createElement('canvas').getContext) {
+	var msg = document.createElement("div");
+	msg.id = "errorMsg";
+	msg.innerHTML = "你的浏览器不支持HTML5!<br/>推荐使用Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+	document.body.appendChild(msg);
+	$("#code").css("display", "none")
+	$("#copyright").css("position", "absolute");
+	$("#copyright").css("bottom", "10px");
+	document.execCommand("stop");
+} else {
+	setTimeout(function () {
+		startHeartAnimation();
+	}, 1); //出心形图时间
+
+	timeElapse(together);
+	setInterval(function () {
+		timeElapse(together);
+	}, 500); //出心内文字时间
+
+	adjustCodePosition();
+	$("#code").typewriter();
+}
+</script>
+
+</body>
+</html>
