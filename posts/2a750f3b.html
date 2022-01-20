@@ -781,107 +781,10 @@
 
 
 
-<main class="post-container content">
+<main class="container content">
 
     
-    <link rel="stylesheet" href="https://cdn.bootcss.com/tocbot/4.8.1/tocbot.css">
-<style>
-    #articleContent h1::before,
-    #articleContent h2::before,
-    #articleContent h3::before,
-    #articleContent h4::before,
-    #articleContent h5::before,
-    #articleContent h6::before {
-        display: block;
-        content: " ";
-        height: 100px;
-        margin-top: -100px;
-        visibility: hidden;
-    }
-
-    #articleContent :focus {
-        outline: none;
-    }
-
-    .toc-fixed {
-        position: fixed;
-        top: 64px;
-    }
-
-    .toc-widget {
-        padding-left: 20px;
-        width: 345px;
-        background-color: rgb(255, 255, 255,0.7);
-        border-radius: 10px;
-        box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15), 0 5px 15px rgba(0, 0, 0, .07), 0 2px 5px -5px rgba(0, 0, 0, .1) !important;
-    }
-
-    .toc-widget .toc-title {
-        margin: 35px 0 15px 0;
-        padding-left: 17px;
-        font-size: 1.5rem;
-        font-weight: bold;
-        line-height: 1.5rem;
-    }
-
-    .toc-widget ol {
-        padding: 0;
-        list-style: none;
-    }
-
-    #toc-content {
-        margin-bottom: 20px;
-    }
     
-    #toc-content ol {
-        padding-left: 10px;
-    }
-
-    #toc-content ol li {
-        padding-left: 10px;
-    }
-
-    #toc-content .toc-link:hover {
-        color: #42b983;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-
-    #toc-content .toc-link::before {
-        background-color: transparent;
-        max-height: 25px;
-    }
-
-    #toc-content .is-active-link {
-        color: #42b983;
-    }
-
-    #toc-content .is-active-link::before {
-        background-color: #42b983;
-    }
-
-    #floating-toc-btn {
-        position: fixed;
-        right: 20px;
-        bottom: 76px;
-        padding-top: 15px;
-        margin-bottom: 0;
-        z-index: 998;
-    }
-
-    #floating-toc-btn .btn-floating {
-        width: 48px;
-        height: 48px;
-    }
-
-    #floating-toc-btn .btn-floating i {
-        line-height: 48px;
-        font-size: 1.4rem;
-    }
-</style>
-<div class="row">
-    <div id="main-content" class="col s12 m12 l9">
-        
 <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
@@ -929,14 +832,14 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        3.3k
+                        3.6k
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        11 分
+                        12 分
                     </div>
                     
                 
@@ -971,13 +874,13 @@
 <tr>
 <td align="center">戳一戳</td>
 <td align="center"><code>双击头像触发戳一戳</code></td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">发送一句戳一戳随机语句</td>
 </tr>
 <tr>
 <td align="center">点歌</td>
 <td align="center"><code>点歌 或 网易点歌</code> + 要点的歌名</td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">发送您所点的歌曲(默认QQ音乐)</td>
 </tr>
 <tr>
@@ -989,13 +892,13 @@
 <tr>
 <td align="center">lol台词</td>
 <td align="center"><code>lol台词 或 lol励志台词 或 lol语录</code></td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">随机发送一句lol英雄台词</td>
 </tr>
 <tr>
 <td align="center">伤感文案</td>
 <td align="center"><code>伤感文案 或 伤感语录 或 感人文案</code></td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">随机发送一句伤感语录</td>
 </tr>
 <tr>
@@ -1037,31 +940,31 @@
 <tr>
 <td align="center">历史</td>
 <td align="center"><code>历史的今天</code></td>
-<td align="center">需要@</td>
+<td align="center">-</td>
 <td align="center">发送过去历史中今天发生的大事</td>
 </tr>
 <tr>
 <td align="center">对联</td>
 <td align="center"><code>随机对联 或 对联 或 对子</code></td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">随机发送一副对联</td>
 </tr>
 <tr>
 <td align="center">查电费</td>
 <td align="center"><code>查电费</code> + 宿舍号</td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">发送当前宿舍的剩余电量(仅支持商大)</td>
 </tr>
 <tr>
 <td align="center">老黄历</td>
 <td align="center"><code>老黄历 或 今日适宜 或 今日禁忌</code></td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">发送当天的适宜和禁忌</td>
 </tr>
 <tr>
 <td align="center">药品说明</td>
 <td align="center"><code>查药品</code> + 要查的药名</td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">发送您要查的药品使用说明书</td>
 </tr>
 <tr>
@@ -1073,185 +976,204 @@
 <tr>
 <td align="center">lol英雄故事</td>
 <td align="center"><code>lol</code> + 英雄名 + <code>背景故事</code></td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">发送对应的英雄背景故事</td>
 </tr>
 <tr>
 <td align="center">舔狗日记</td>
 <td align="center"><code>舔狗语录 或 舔狗文案 或 舔狗日记</code></td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">发送随机一句舔狗语录</td>
 </tr>
 <tr>
 <td align="center">随机一言</td>
 <td align="center"><code>随便说一句 或 随机一言</code></td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">随机发送一句话，比如：动漫中的台词</td>
 </tr>
 <tr>
 <td align="center">二次元图片</td>
-<td align="center"><code>二次元 或 二次元图片 或 抽老婆</code></td>
-<td align="center">无需@</td>
+<td align="center"><code>萝莉图 或 来点萝莉 或 抽老婆</code></td>
+<td align="center">-</td>
 <td align="center">随机发送一张二次元萝莉图</td>
+</tr>
+<tr>
+<td align="center">二次元图片</td>
+<td align="center"><code>正太图 或 来点正太 或 抽老公</code></td>
+<td align="center">-</td>
+<td align="center">随机发送一张二次元正太图</td>
 </tr>
 <tr>
 <td align="center">疫情查询</td>
 <td align="center">地区 + <code>疫情</code></td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">发送要查地区的具体疫情状况</td>
 </tr>
 <tr>
 <td align="center">代码云执行</td>
 <td align="center"><code>code 代码语言 [-i] [inputText]</code> + 代码体</td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">返回代码的执行结果</td>
 </tr>
 <tr>
 <td align="center">发图识番</td>
 <td align="center"><code>识番</code> + 图片</td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">返回与图片相似的番剧</td>
 </tr>
 <tr>
 <td align="center">每日一句</td>
 <td align="center"><code>每日一句</code></td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">每日一句英语小短句</td>
 </tr>
 <tr>
 <td align="center">微博热搜</td>
-<td align="center"><code>微博热搜</code></td>
-<td align="center">无需@</td>
+<td align="center"><code>微博</code></td>
+<td align="center">-</td>
 <td align="center">发送实时微博热搜榜</td>
 </tr>
 <tr>
-<td align="center">新闻</td>
+<td align="center">知乎热搜</td>
+<td align="center"><code>知乎</code></td>
+<td align="center">-</td>
+<td align="center">发送实时知乎热搜榜</td>
+</tr>
+<tr>
+<td align="center">央视新闻</td>
 <td align="center"><code>新闻</code></td>
-<td align="center">无需@</td>
+<td align="center">-</td>
 <td align="center">发送央视实时最新新闻</td>
 </tr>
 </tbody></table>
 <h4 id="《图片互动相关指令》"><a href="#《图片互动相关指令》" class="headerlink" title="《图片互动相关指令》"></a><center>《图片互动相关指令》</center></h4><table>
 <thead>
 <tr>
-<th align="center">全无需@</th>
+<th align="center">是否需要@</th>
 <th align="center">触发指令</th>
 <th align="center">效果展示</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">~</td>
-<td align="center"><code>灰色头像 或 黑白头像</code></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/0544b49bedb74cfc87a9566ba8eb0c9a.jpg" alt="灰色头像"></td>
-</tr>
-<tr>
-<td align="center">~</td>
-<td align="center"><code>诺基亚</code> + 要显示的内容</td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/71848fc1787141659f4a04a398139000.jpg" alt="诺基亚"></td>
-</tr>
-<tr>
-<td align="center">~</td>
-<td align="center"><code>鲁迅说</code> + 要说的内容</td>
-<td align="center">这个也违规了放不上。。。</td>
-</tr>
-<tr>
-<td align="center">~</td>
-<td align="center"><code>红旗头像</code> + QQ号、@某人、自己、图片</td>
-<td align="center">红旗图片违规放不了，没办法咯0.0</td>
-</tr>
-<tr>
-<td align="center">~</td>
-<td align="center"><code>摸摸 或 rua</code> + QQ号、@某人、自己、图片</td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/0dda86252d8e4c938badd2fe3e8e084c.jpg" alt="rua"></td>
-</tr>
-<tr>
-<td align="center">~</td>
-<td align="center"><code>亲 或 亲亲</code> + QQ号、@某人、自己、图片</td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/197b6c57b3314d2c8a0a6c59dc54c40f.jpg" alt="亲亲"></td>
-</tr>
-<tr>
-<td align="center">~</td>
-<td align="center"><code>贴贴 或 蹭蹭</code> + QQ号、@某人、自己、图片</td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/fe3162b56e9a4d579779f77fc94e35fe.jpg" alt="贴贴"></td>
-</tr>
-<tr>
-<td align="center">~</td>
-<td align="center"><code>顶 或 玩</code> + QQ号、@某人、自己、图片</td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/ad643b74375443fd9d387874d436b3b4.jpg" alt="玩"></td>
-</tr>
-<tr>
-<td align="center">~</td>
-<td align="center"><code>拍 或 想吃</code> + QQ号、@某人、自己、图片</td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/ae21305a75f044afb9444e3be9d2ee9e.jpg" alt="想吃"></td>
-</tr>
-<tr>
-<td align="center">~</td>
-<td align="center"><code>撕 或 手撕</code> + QQ号、@某人、自己、图片</td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/3d5357b593e74426b3831b7c4b614c50.jpg" alt="手撕"></td>
-</tr>
-<tr>
-<td align="center">~</td>
-<td align="center"><code>丢 或 扔</code> + QQ号、@某人、自己、图片</td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/7317416d0bab40459e3c301cbd6b8325.jpg" alt="扔"></td>
-</tr>
-<tr>
-<td align="center">~</td>
-<td align="center"><code>爬</code> + QQ号、@某人、自己、图片</td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/a546f8f75fe64c6c89b549426ab5e23a.jpg" alt="爬"></td>
-</tr>
-<tr>
-<td align="center">~</td>
-<td align="center"><code>精神支柱</code> + QQ号、@某人、自己、图片</td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/16cbccbb3fea42a091c758b044a1b468.jpg" alt="精神支柱"></td>
-</tr>
-<tr>
-<td align="center">~</td>
-<td align="center"><code>一直 或 永远</code> + QQ号、@某人、自己、图片</td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/4497a326339846feaa16d3a6dfe091b2.jpg" alt="一直"></td>
-</tr>
-</tbody></table>
+</table>
+<ul>
+<li>| <code>灰色头像 或 黑白头像</code> | <img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/0544b49bedb74cfc87a9566ba8eb0c9a.jpg" alt="灰色头像"></li>
+<li>| <code>红旗头像 或 国旗头像</code> | 红旗图片违规放不了，没办法咯0.0</li>
+<li>| <code>诺基亚</code> + 要显示的内容 | <img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/71848fc1787141659f4a04a398139000.jpg" alt="诺基亚"></li>
+<li>| <code>鲁迅说</code> + 要说的内容 | 这个也违规了放不上。。。</li>
+<li>| <code>摸摸 或 rua</code> + QQ号、@某人、自己、图片 | <img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/0dda86252d8e4c938badd2fe3e8e084c.jpg" alt="rua"></li>
+<li>| <code>亲 或 亲亲</code> + QQ号、@某人、自己、图片 | <img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/197b6c57b3314d2c8a0a6c59dc54c40f.jpg" alt="亲亲"></li>
+<li>| <code>贴贴 或 蹭蹭</code> + QQ号、@某人、自己、图片 | <img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/fe3162b56e9a4d579779f77fc94e35fe.jpg" alt="贴贴"></li>
+<li>| <code>顶 或 玩</code> + QQ号、@某人、自己、图片 | <img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/ad643b74375443fd9d387874d436b3b4.jpg" alt="玩"></li>
+<li>| <code>拍 或 想吃</code> + QQ号、@某人、自己、图片 | <img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/ae21305a75f044afb9444e3be9d2ee9e.jpg" alt="想吃"></li>
+<li>| <code>撕 或 手撕</code> + QQ号、@某人、自己、图片 | <img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/3d5357b593e74426b3831b7c4b614c50.jpg" alt="手撕"></li>
+<li>| <code>丢 或 扔</code> + QQ号、@某人、自己、图片 | <img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/7317416d0bab40459e3c301cbd6b8325.jpg" alt="扔"></li>
+<li>| <code>爬</code> + QQ号、@某人、自己、图片 | <img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/a546f8f75fe64c6c89b549426ab5e23a.jpg" alt="爬"></li>
+<li>| <code>精神支柱</code> + QQ号、@某人、自己、图片 | <img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/16cbccbb3fea42a091c758b044a1b468.jpg" alt="精神支柱"></li>
+<li>| <code>一直 或 永远</code> + QQ号、@某人、自己、图片 | <img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/4497a326339846feaa16d3a6dfe091b2.jpg" alt="一直"></li>
+</ul>
 <h4 id="《文字游戏相关指令》"><a href="#《文字游戏相关指令》" class="headerlink" title="《文字游戏相关指令》"></a><center>《文字游戏相关指令》</center></h4><p>作者快累死了，待更新。。。</p>
-<h4 id="《无指令的触发功能》"><a href="#《无指令的触发功能》" class="headerlink" title="《无指令的触发功能》"></a><center>《无指令的触发功能》</center></h4><table>
+<h4 id="《订阅每日触发功能》"><a href="#《订阅每日触发功能》" class="headerlink" title="《订阅每日触发功能》"></a><center>《订阅每日触发功能》</center></h4><table>
 <thead>
 <tr>
 <th align="center">功能名称</th>
+<th align="center">订阅指令</th>
+<th align="center">是否需要@</th>
 <th align="center">功能说明</th>
 </tr>
 </thead>
 <tbody><tr>
 <td align="center">入退群通知</td>
+<td align="center">-</td>
+<td align="center">-</td>
 <td align="center">当群成员有变化时，自动发送通知消息</td>
 </tr>
 <tr>
 <td align="center">群文件变化</td>
-<td align="center">当有成员上传文件时，自动发送通知消息</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">当群成员上传文件时，自动发送通知消息</td>
 </tr>
 <tr>
 <td align="center">凌晨打卡</td>
+<td align="center"><code>订阅凌晨打卡</code></td>
+<td align="center">需要@</td>
 <td align="center">新一天的开始定时发送，附带每日一言</td>
 </tr>
 <tr>
 <td align="center">早安语录</td>
+<td align="center"><code>订阅早安语录</code></td>
+<td align="center">需要@</td>
 <td align="center">每天早上6点定时发送，随机早安文案</td>
 </tr>
 <tr>
-<td align="center">历史的今天</td>
-<td align="center">每天早上8点定时发送，了解历史</td>
-</tr>
-<tr>
 <td align="center">微博热搜榜</td>
+<td align="center"><code>订阅微博热搜</code></td>
+<td align="center">需要@</td>
 <td align="center">每天上午10点定时发送，微博实时热搜</td>
 </tr>
 <tr>
+<td align="center">知乎热搜榜</td>
+<td align="center"><code>订阅知乎热搜</code></td>
+<td align="center">需要@</td>
+<td align="center">每天中午12点定时发送，知乎实时热搜</td>
+</tr>
+<tr>
 <td align="center">央视新闻</td>
-<td align="center">每天中午12点定时发送，央视实时新闻</td>
+<td align="center"><code>订阅央视新闻</code></td>
+<td align="center">需要@</td>
+<td align="center">每天晚上7点定时发送，央视实时新闻</td>
+</tr>
+<tr>
+<td align="center">防撤回</td>
+<td align="center"><code>开启防撤回</code></td>
+<td align="center">-</td>
+<td align="center">为所在群聊，监测群成员撤回的消息</td>
 </tr>
 </tbody></table>
-<h1 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a><center>更新日志</center></h1><h4 id="雷雨-v1-4-1-2022-01-03"><a href="#雷雨-v1-4-1-2022-01-03" class="headerlink" title="雷雨-v1.4.1(2022-01-03)"></a>雷雨-v1.4.1(2022-01-03)</h4><ul>
+<h1 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a><center>更新日志</center></h1><h4 id="雷雨-v1-4-2-2022-01-13"><a href="#雷雨-v1-4-2-2022-01-13" class="headerlink" title="雷雨-v1.4.2(2022-01-13)"></a>雷雨-v1.4.2(2022-01-13)</h4><ul>
+<li>新增正太图库：</li>
+</ul>
+<blockquote>
+<p>上传图片 + [图片]</p>
+<blockquote>
+<p>因市场上没有正太图片的API，于是做了一个公共图片，还劳烦大家自行上传来扩充图库，谢谢各位~</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>正太图</p>
+<blockquote>
+<p>将从正太图库中随机发送一张图片</p>
+</blockquote>
+</blockquote>
+<h4 id="雷雨-v1-4-2-2022-01-13-1"><a href="#雷雨-v1-4-2-2022-01-13-1" class="headerlink" title="雷雨-v1.4.2(2022-01-13)"></a>雷雨-v1.4.2(2022-01-13)</h4><ul>
+<li>新增订阅功能：</li>
+</ul>
+<blockquote>
+<p>订阅 + 需要订阅的功能；取消订阅 + 需要取消订阅的功能</p>
+<blockquote>
+<p>将原定时触发的功能，改为由群主或管理自行DIY订阅</p>
+</blockquote>
+</blockquote>
+<ul>
+<li>完善部分功能：</li>
+</ul>
+<blockquote>
+<p>地区 + 疫情</p>
+<blockquote>
+<p>完善疫情查询插件，目前可查询全球疫情数据</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>开启防撤回；关闭防撤回</p>
+<blockquote>
+<p>完善防撤回插件，可由群主或管理自行开启或关闭</p>
+</blockquote>
+</blockquote>
+<h4 id="雷雨-v1-4-1-2022-01-03"><a href="#雷雨-v1-4-1-2022-01-03" class="headerlink" title="雷雨-v1.4.1(2022-01-03)"></a>雷雨-v1.4.1(2022-01-03)</h4><ul>
 <li>新增定时触发功能：</li>
 </ul>
 <blockquote>
-<p>凌晨定时打卡</p>
+<p>凌晨打卡</p>
 <blockquote>
 <p> 新一天的开始定时发送，附带每日一言(中英版)</p>
 </blockquote>
@@ -1263,21 +1185,21 @@
 </blockquote>
 </blockquote>
 <blockquote>
-<p>历史的今天</p>
-<blockquote>
-<p>每天早上8点定时发送，便于了解历史</p>
-</blockquote>
-</blockquote>
-<blockquote>
 <p>微博热搜榜</p>
 <blockquote>
 <p>每天上午10点定时发送，微博实时热搜</p>
 </blockquote>
 </blockquote>
 <blockquote>
+<p>知乎热搜榜</p>
+<blockquote>
+<p>每天中午12点定时发送，知乎实时热搜</p>
+</blockquote>
+</blockquote>
+<blockquote>
 <p>央视新闻</p>
 <blockquote>
-<p>每天中午12点定时发送，央视实时新闻</p>
+<p>每天晚上7点定时发送，央视实时新闻</p>
 </blockquote>
 </blockquote>
 <ul>
@@ -2448,99 +2370,6 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 </style>
 
 
-    </div>
-    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
-        <div class="toc-widget">
-            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
-            <div id="toc-content"></div>
-        </div>
-    </div>
-</div>
-
-<!-- TOC 悬浮按钮. -->
-
-<div id="floating-toc-btn" class="hide-on-med-and-down">
-    <a class="btn-floating btn-large bg-color">
-        <i class="fa fa-list"></i>
-    </a>
-</div>
-
-
-<script src="https://cdn.bootcss.com/tocbot/4.8.1/tocbot.min.js"></script>
-<script>
-    $(function () {
-        tocbot.init({
-            tocSelector: '#toc-content',
-            contentSelector: '#articleContent',
-            headingsOffset: -($(window).height() * 0.4 - 45),
-            // headingsOffset: -205,
-            headingSelector: 'h1, h2, h3, h4, h5, h6'
-        });
-
-        // modify the toc link href to support Chinese.
-        let i = 0;
-        let tocHeading = 'toc-heading-';
-        $('#toc-content a').each(function () {
-            $(this).attr('href', '#' + tocHeading + (++i));
-        });
-
-        // modify the heading title id to support Chinese.
-        i = 0;
-        $('#articleContent').children('h1, h2, h3, h4, h5, h6').each(function () {
-            $(this).attr('id', tocHeading + (++i));
-        });
-
-        // Set scroll toc fixed.
-        let tocHeight = parseInt($(window).height() * 0.4 - 64);
-        let $tocWidget = $('.toc-widget');
-        $(window).scroll(function () {
-            let scroll = $(window).scrollTop();
-            /* add post toc fixed. */
-            if (scroll > tocHeight) {
-                $tocWidget.addClass('toc-fixed');
-            } else {
-                $tocWidget.removeClass('toc-fixed');
-            }
-        });
-
-        
-        /* 修复文章卡片 div 的宽度. */
-        let fixPostCardWidth = function (srcId, targetId) {
-            let srcDiv = $('#' + srcId);
-            if (srcDiv.length === 0) {
-                return;
-            }
-
-            let w = srcDiv.width();
-            if (w >= 450) {
-                w = w + 21;
-            } else if (w >= 350 && w < 450) {
-                w = w + 18;
-            } else if (w >= 300 && w < 350) {
-                w = w + 16;
-            } else {
-                w = w + 14;
-            }
-            $('#' + targetId).width(w);
-        };
-
-        // 切换TOC目录展开收缩的相关操作.
-        const expandedClass = 'expanded';
-        let $tocAside = $('#toc-aside');
-        let $mainContent = $('#main-content');
-        $('#floating-toc-btn .btn-floating').click(function () {
-            if ($tocAside.hasClass(expandedClass)) {
-                $tocAside.removeClass(expandedClass).slideUp(500);
-                $mainContent.removeClass('l9');
-            } else {
-                $tocAside.addClass(expandedClass).slideDown(500);
-                $mainContent.addClass('l9');
-            }
-            fixPostCardWidth('artDetail', 'prenext-posts');
-        });
-        
-    });
-</script>
     
 
 </main>
@@ -2561,7 +2390,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 
             
                 <i class="fa fa-area-chart"></i> 站点总字数:&nbsp;
-                <span class="white-color">34.4k</span> 字
+                <span class="white-color">34.7k</span> 字
             
 
             
@@ -2647,7 +2476,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes *
             minutes) / seconds);
 
-        document.getElementById("sitetime").innerHTML = "本站已勉强运行 ：" + diffYears + " 年 " + diffDays + " 天 " + diffHours +
+        document.getElementById("sitetime").innerHTML = "本站已勉强运行 ：" + (diffYears * 365 + diffDays) + " 天 " + diffHours +
             " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒" ;
     }
     siteTime();
@@ -2791,7 +2620,7 @@ $(function () {
       app_id: "XXXXX"
     });
   daovoice('update');
-  </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  </script>
         
 
     <script>
@@ -2799,5 +2628,5 @@ $(function () {
                 isSPA: false,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=i;var e=n.imageLazyLoadSetting.isSPA,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight||document.documentElement.clientHeight)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}i(),n.addEventListener("scroll",function(){var t,e;t=i,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=i;var e=n.imageLazyLoadSetting.isSPA,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight||document.documentElement.clientHeight)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}i(),n.addEventListener("scroll",function(){var t,e;t=i,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
 </html>
